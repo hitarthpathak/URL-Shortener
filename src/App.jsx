@@ -4,8 +4,6 @@ import axios from "axios";
 
 function App() {
 
-  console.log("TOKEN:", import.meta.env.VITE_TINY_URL_TOKEN);
-
   const [long_url, set_long_url] = useState("");
   const [short_url, set_short_url] = useState("");
 
